@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="sx" />
+        <module name="bzl" />
+        <module name="auth" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth" target="8" />
+      <module name="bzl" target="1.8" />
+      <module name="common" target="8" />
+      <module name="my_mutimodule_proj" target="1.8" />
+      <module name="sx" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth" options="-parameters" />
+      <module name="bzl" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="my_mutimodule_proj" options="-parameters" />
+      <module name="sx" options="-parameters" />
+    </option>
+  </component>
+</project>

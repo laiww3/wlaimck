@@ -1,0 +1,4 @@
+com\wlai\bzl\BzlApplication.class
+com\wlai\bzl\controller\AmapController.class
+com\wlai\bzl\service\amap\IAampService.class
+com\wlai\bzl\service\amap\impl\AmapServiceImpl.class
